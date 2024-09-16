@@ -275,7 +275,16 @@ footer{
         width: 100%;
         margin: auto;
         display: block;
+        margin-top: 100px;
+        font-size:24px;
     }
+
+    .img-con h1{
+        position: absolute;
+        font-size:34px;
+    }
+
+   
 
     .right-img{
         width: 100%;
@@ -287,8 +296,9 @@ footer{
     }
 
     .right-img img{
-        width: 100%;
+        width: auto;
         height: 300px;
+        padding-left: 20px;
     }
 
     #open-button{
@@ -370,6 +380,7 @@ footer{
         position: relative;
         background-image: url(src/about_bg.jpg);
         width:100%;
+        margin-left:1px;
         min-height: 700px;
         
     }
