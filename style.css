@@ -204,7 +204,7 @@ section.two-section{
     width:auto;
     height: 700px;
     position: absolute;
-    right: 0px;
+    right: 5px;
     bottom: -12px;
 }
 
@@ -402,6 +402,7 @@ footer{
     .img-wrapper img{
         height: 300px;
         margin: auto;
+        
         
     }
     
