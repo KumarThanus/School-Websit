@@ -1,0 +1,443 @@
+body{
+    height: 100vh;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+/* header property */
+header{
+     width: 100%;
+     padding: 20px;
+}
+
+.image-wrapper{
+         display: inline-block;
+        margin-left:50px;
+}
+
+#nav-wrapper{
+            display: inline-block;
+            float: right;
+            line-height: 3;
+            margin-right: 300px;
+}
+
+#nav-link {
+    padding: 20px 30px;
+    background-color: #f0390f;
+    border-radius: 50px;
+    color: rgb(253, 246, 246);
+    font-weight: bold;
+    font-size: small;
+}
+
+.link{
+     color: rgb(85, 85, 85);
+     font-size: small;
+     font-weight: bold;
+}
+
+#nav-wrapper a{
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-right: 50px;
+}
+
+
+
+
+/* Main Contant CSS */
+
+
+section.one-contant{
+            width:100%;
+            height: 600px;
+            position: relative;
+}
+
+
+.img-con{
+        display:block;
+        vertical-align: top;
+        margin-top: 100px;
+        position: absolute;
+        left: 150px;
+       
+}
+
+.img-con h1{
+    font-size: 4rem;
+    font-weight:bolder ;
+    line-height: normal;
+    color: rgb(48, 48, 48);
+    margin-top: 50px;
+    
+}
+
+.right-img{
+    float: right;
+    margin-right: 10rem;
+   
+   
+}
+
+.right-img img{
+    width: 650px;
+    vertical-align: top;
+}
+
+/* section 02 */
+
+section.two-section{
+    width: 100%;
+    height: 600px;
+    vertical-align: top;
+}
+
+.head{
+   text-align: center;
+}
+
+.head h1{
+    font-size: 30px;
+    
+}
+
+.part-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+
+.part-container h4{
+    font-size: 19px;
+}
+
+.part-container p{
+    font-size: 14px
+    
+}
+.part-container h4,p {
+        text-align: center;
+        margin-top: 15px;
+        padding:0px 50px;
+}
+
+.part-container img{
+        margin: auto;
+        margin-top: 60px;
+        justify-content: center;
+}
+
+.part-container h3{
+            position: absolute;
+            bottom: -30px;
+}
+
+.part-container span{
+    color:black ;
+}
+
+.part{  
+        width: 350px;
+        height: 400px;
+        background-color: #f0390f;
+        margin-right: 20px;
+        border-radius: 15px;
+        color: white;
+        position: relative;
+        
+}
+
+#color-part{
+        background-color:#3e0bce;
+}
+
+/* 3rd Section */
+
+.foot-section{
+        width: 100%;
+        height: 750px;
+        position: relative;
+        background-image: url(src/about_bg.jpg);
+        background-position: center;
+        justify-content: space-between;
+        
+}
+.text-wrapper{
+    position: absolute;
+    width:50%;
+    left: 0px;
+    
+    
+}
+
+.img-wrapper{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-wrapper h1{
+        position: absolute ; 
+        text-align: left; 
+        left: 200px;
+        margin-top: 200px;
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+    
+}
+
+.text-wrapper p{
+    position: absolute ;
+     left: 150px;
+    margin-top: 350px; 
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.img-wrapper img{
+    width:auto;
+    height: 700px;
+    position: absolute;
+    right: 0px;
+    bottom: -12px;
+}
+
+
+footer{
+    padding: 5px;
+}
+
+/* button section nav css */
+    #close-nav{
+        position: fixed;
+        right: 0;
+        z-index: 100;
+        background-color: rgb(6, 84, 70);
+        color: black;
+        top: 0;
+        bottom: 0;
+        width:60%;
+    }
+
+    #close-nav{
+        display: none;
+    }
+
+    #Open-but{
+        display: none;
+        
+    }
+
+    #Open-but{
+        padding: 10px 20px;
+        background-color: rgb(167, 5, 5);
+        color: #ffffff;
+    }
+
+
+
+/* Responsive Design C */
+
+@media(min-width:375px) and (max-width:765px) {
+/* nav section */
+    .image-wrapper{
+        width: 100%;
+        margin: auto;
+    }
+
+    #nav-wrapper{
+        width: 100%;
+        display: none;
+    }
+
+    #Open-but{
+        display:block;
+        
+    }
+/* 1st Section */
+    section.one-contant{
+            width: 100%;
+            height: 700px;
+            display: block;
+            margin: auto;
+    }
+
+    main{
+        width: 100%;
+    }
+    .img-con{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    .right-img{
+        width: 100%;
+        height: 200px;
+        float: left;
+        margin: auto;
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .right-img img{
+        width: 100%;
+        height: 300px;
+    }
+
+    #open-button{
+        display: block;
+    }
+/* 2nd Section */
+
+    section.two-section{
+        width: 90%;
+        height: 1600px;
+        
+    }
+
+    .head{
+        text-align: center;
+     }
+     
+     .head h1{
+         font-size: 30px;
+         
+     }
+     
+     .part-container{
+             width: 100%;
+             display: block;
+             margin: auto;
+             justify-content:space-between;
+            
+     }
+
+     .part{
+            margin: auto; 
+            width: 100%;
+            height: 400px;
+            color: white;
+            padding: 0px 20px;
+            margin-left: 25px;
+            
+    }
+        
+     .part img{
+           
+            padding-top: 90px;
+     }
+
+     .part-container img{
+                    margin: auto;
+                    margin-top: 60px;
+                    justify-content: center;
+    }
+     
+      .part-container h4{ 
+         font-size: 19px;
+     } 
+     
+     .part-container p{
+         font-size: 14px 
+         
+     }
+     .part-container h4,p {
+             text-align: center;
+             margin-top: 15px;
+             padding:0px 50px;
+     }
+     
+     .part-container img{
+             margin: auto;
+             margin-top: 60px;
+             justify-content: center;
+     }
+     
+     .part-container h3{
+                 position: absolute;
+                 bottom: -30px;
+     }
+/* 3rd Section */
+
+    .foot-section{
+        position: relative;
+        background-image: url(src/about_bg.jpg);
+        width:100%;
+        min-height: 700px;
+        
+    }
+
+    .text-wrapper{
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            
+            
+        }
+    .img-wrapper{
+        width:100%;
+        height: 400px;
+        position: absolute;
+        bottom: -500px;
+    }
+
+    .img-wrapper img{
+        height: 300px;
+        margin: auto;
+        
+    }
+    
+    .text-wrapper h1{
+        position: absolute ; 
+        text-align: left; 
+        left: 50px;
+        margin-top: 200px;
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+    
+    }
+
+    .text-wrapper p{
+        position: absolute ;
+        left: 0px;
+        margin-top: 350px; 
+        color: white;
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: left;
+        padding-top: 90px;
+    }
+    
+        
+
+
+@media(min-width:1000px){
+    header{
+        height: 10vh;
+    }
+
+    .one-contant{
+        height: 30vh;
+    }
+
+    .two-section{
+        height: 60vh;
+    }
+    .foot-section{
+        height: 50vh;
+    }
+
+    footer{
+        height: 2vh;
+    }
+}
+
+}

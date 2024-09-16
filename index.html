@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> School Website </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="close-nav">
+        <ul>
+            <li><a href="#">    home       </a></li>
+            <li><a href="#" >  about      </a></li>
+            <li><a href="#" >  skating    </a></li>
+            <li><a href="#" >  shop       </a></li>
+            <li><a href="#" >  contact us </a></li>
+        </ul>
+            
+            <button onclick="closeb()"> Close</button>
+    </nav>
+    <header>
+        <div class="image-wrapper">
+            <img src="src/logo.png" alt="skating logo">
+        </div>
+       
+        <nav id="nav-wrapper" >
+            <a href="#" id="nav-link"> home       </a>
+            <a href="#" class="link">  about      </a>
+            <a href="#" class="link">  skating    </a>
+            <a href="#" class="link">  shop       </a>
+            <a href="#" class="link">  contact us </a>
+        </nav>
+        <button id="Open-but" onclick="openb()"> Open Menu</button>
+
+    </header>
+    <main>
+<!-- 1st section -->
+        <section class="one-contant">
+            <div class="img-con">
+                <img src="src/top_icon.png" alt="blue and red line logo">
+                <h1> Stating <br> Board <br> School </h1>
+            </div>
+
+            <div class="right-img">
+                <img src="src/banner_img.png" alt="skating-banner">
+            </div>
+        </section>
+<!-- 2nd Section -->
+        <section class="two-section">
+            <div class="head">
+                <h1> Our Skating Class </h1>
+                <p> There are many warlations passges lorem </p>
+            </div>
+
+            <div class="part-container">
+                <div class="part">
+                    <img src="src/class1.png" alt="skating 1">
+                    <h4> SkateBoard </h4>
+                    <p> There are many variation of passages of lorem ipsum available but 
+                        the majority have suffered alteration There are many variation.  </p>                   
+                        <h3><span> Read more</span></h3>                                                                         
+                </div>
+
+                <div class="part" id="color-part">
+                        <img src="src/class2.png" alt="skating 1">
+                        <h4> SkateBoard </h4>
+                        <p> There are many variation of passages of lorem ipsum available but 
+                            the majority have suffered alteration There are many variation.  </p>
+                        <h3><span> Read more</span></h3>                                                                        
+                </div>
+
+                <div class="part">
+                    <img src="src/class3.png" alt="skating 1">
+                    <h4> SkateBoard </h4>
+                    <p> There are many variation of passages of lorem ipsum available but 
+                        the majority have suffered alteration There are many variation.  </p> 
+                    <h3><span> Read more</span></h3>                      
+                </div>  
+            </div>
+        </section>
+<!-- 3rd Setion -->
+        <section class="foot-section">
+        
+                <div class="text-wrapper">
+                    <h1> About <br> skating <br> School </h1>
+                     <p>There are many variation of passages of lorem ipsum available but 
+                        the majority have suffered alteration There are  many variation.
+                        There are many variation of passages of lorem ipsum available  but 
+                        the majority have suffered alteration There are  many variation.</p>
+                        
+                </div>
+                <div class="img-wrapper">
+                    <img src="src/about.png" alt="3 People pic">
+                </div>
+                    
+        </section>
+    </main>
+            <footer>
+            </footer>
+
+        <script>
+            function openb(){
+                document.getElementById("close-nav").style.display="block"  
+            }
+
+            function closeb(){
+                document.getElementById("close-nav").style.display="none"  
+            }
+
+
+        </script>
+</body>
+</html>
