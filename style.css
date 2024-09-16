@@ -244,7 +244,7 @@ footer{
 
 /* Responsive Design C */
 
-@media(min-width:305px) and (max-width:765px) {
+@media(min-width:300px) and (max-width:765px) {
 /* nav section */
     .image-wrapper{
         width: 100%;
