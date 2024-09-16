@@ -181,7 +181,7 @@ section.two-section{
 .text-wrapper h1{
         position: absolute ; 
         text-align: left; 
-        left: 200px;
+        left: 300px;
         margin-top: 200px;
         color: white;
         font-size: 48px;
@@ -191,7 +191,7 @@ section.two-section{
 
 .text-wrapper p{
     position: absolute ;
-     left: 150px;
+     left: 250px;
     margin-top: 350px; 
     color: white;
     font-size: 18px;
@@ -204,7 +204,7 @@ section.two-section{
     width:auto;
     height: 700px;
     position: absolute;
-    right: 5px;
+    right: 20px;
     bottom: -12px;
 }
 
